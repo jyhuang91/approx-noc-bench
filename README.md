@@ -24,6 +24,11 @@ physical address in the system so that you can identify the approximability of
 the data block based on its virtual address. (But hacking gem5's ruby memory
 system and slicc for coherence is painful.)
 
+Inputs for PARSEC benchmarks and for SSCAv2 can be downloaded from
+[PARSEC website](https://parsec.cs.princeton.edu/download.htm) and
+[Stanford SNAP](http://snap.stanford.edu/data/index.html), respectively.
+
+
 ### References
 
 [1] Rahul Boyapati, Jiayi Huang, Pritam Majumder, Ki Hwan Yum, Eun Jung Kim,
