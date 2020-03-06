@@ -1,0 +1,5 @@
+To compile the code, run the following commands:
+
+$ cd obj
+$ ./runconfig.sh
+$ make install
