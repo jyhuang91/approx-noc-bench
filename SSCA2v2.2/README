@@ -1,0 +1,8 @@
+SSCAv2.2 was modifed to run real world graphs.
+Graphs can be downloaded from http://snap.stanford.edu/data/index.html
+
+Compile:
+$ cd src
+$ make
+
+To run it, please refer to run_ssca2.sh
