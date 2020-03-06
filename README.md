@@ -27,9 +27,9 @@ system and slicc for coherence is painful.)
 ### References
 
 [1] Rahul Boyapati, Jiayi Huang, Pritam Majumder, Ki Hwan Yum, Eun Jung Kim,
-2017. APPROX-NoC: A Data Approximation Framework for Network-On-Chip
-Architectures. In Proceedings of ISCA ’17, Toronto, ON, Canada, June 24-28,
-2017, 12 pages.
+2017. [APPROX-NoC: A Data Approximation Framework for Network-On-Chip
+Architectures](https://jyhuang91.github.io/papers/isca2017-approxnoc.pdf). In
+Proceedings of ISCA ’17, Toronto, ON, Canada, June 24-28, 2017, 12 pages.
 
 [2] Christian Bienia, Sanjeev Kumar, Jaswinder Pal Singh, and Kai Li. 2008. The
 PARSEC benchmark suite: characterization and architectural implications. In
