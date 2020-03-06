@@ -1,0 +1,9 @@
+To compile the code, run the following commands:
+
+$ cd src
+$ make
+
+# You may face an compilation error regarding libx264.a, such as
+# "make: libx264.a: Command not found", just make one more time
+
+$ make
