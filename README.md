@@ -18,11 +18,11 @@ For gem5 simulations, it may be a bit tedious. Firstly, these applications
 should be compiled with PARSEC hooks and run to get a checkpoint. During
 checkpoint creation, the approximated regions (in virtual addresses) are
 printed, which should be dumped to a file. Later when resuming the simulation
-from the checkpoint, load the regions through the file. When memory accesses
+from the checkpoint, load the regions through the file. When memory access
 happens, the virtual address of the block should be passed along with the
 physical address in the system so that you can identify the approximability of
-the data block based on its virtual address. (But hacking gem5's ruby memory
-system and slicc for coherence is painful.)
+the data block based on its virtual address. But hacking gem5's ruby memory
+system and slicc for coherence is painful ... and joyful :)
 
 Inputs for PARSEC benchmarks and for SSCAv2 can be downloaded from
 [PARSEC website](https://parsec.cs.princeton.edu/download.htm) and
