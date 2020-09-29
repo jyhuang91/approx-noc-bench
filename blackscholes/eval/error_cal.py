@@ -16,9 +16,9 @@ approx_line = approx_f.readline()
 prec_line = prec_f.readline()
 
 i = 0;
-big_err = 0;
+big_err = 0.0;
 totol_error = 0.0;
-biggest_err = 0;
+biggest_err = 0.0;
 while approx_line and prec_line:
     i += 1
     #print approx_line
@@ -33,9 +33,9 @@ while approx_line and prec_line:
         error = abs((a - b) / b)
     else:
         if a == 0:
-            error = 0
+            error = 0.0
         else:
-            error = 1
+            error = 1.0
 #        error = 0
 #    if error > 100:
 #        big_err += 1
